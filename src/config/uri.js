@@ -6,3 +6,6 @@ export const Hotcat = "/api/hotcat";
 export const GoodCook = "https://api.i-lynn.cn/cookbook";
 
 export const DetailMsg = "/api/detail/";
+
+//分类列表
+export const Cate = "/api/cate";

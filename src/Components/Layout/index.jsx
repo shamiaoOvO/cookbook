@@ -12,7 +12,7 @@ import moreActive from "@/assets/icon/more-active.png";
 import mo from "@/assets/icon/more.png";
 //导入需要使用的内容组件
 import Menu from "@/Views/Menu/index";
-
+import Cate from "@/Views/Cate/index";
 export default class Index extends Component {
     //构造方法,初始化数据
     constructor(props) {
@@ -100,7 +100,7 @@ export default class Index extends Component {
                             });
                         }}
                         data-seed="logId1">
-                        内容:第二个菜单
+                        <Cate></Cate>
                     </TabBar.Item>
                     <TabBar.Item
                         icon={
